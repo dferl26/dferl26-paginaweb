@@ -1,0 +1,588 @@
+{
+  "version": 1,
+  "actualizado": "2026-10-27",
+  "total": 17,
+  "productos": [
+    {
+      "id": "balanza-analitica",
+      "nombre": "Balanzas analíticas y de precisión",
+      "categoria": "equipos",
+      "subcategoria": "Balanzas",
+      "resumen": "Pesaje de alta exactitud con cámara antiviento de vidrio y opciones de calibración interna o externa.",
+      "descripcion": "Balanzas para laboratorios de control de calidad, investigación y docencia. La cámara antiviento de vidrio estabiliza la lectura y la pantalla digital facilita el trabajo de rutina. Le asesoramos en la selección de capacidad y legibilidad según su aplicación.",
+      "imagen": "https://images.unsplash.com/photo-1748263831502-23d923a5c66a?auto=format&fit=crop&w=1600&q=80",
+      "imagenes": [
+        "https://images.unsplash.com/photo-1783454975251-8baeadeb91f7?auto=format&fit=crop&w=1600&q=80"
+      ],
+      "etiquetas": [
+        "balanza",
+        "pesaje",
+        "gramos",
+        "miligramos"
+      ],
+      "destacado": true,
+      "especificaciones": {
+        "Tipo": "Analítica y de precisión",
+        "Legibilidad": "Desde 0,1 mg (según modelo)",
+        "Calibración": "Interna o externa (según modelo)",
+        "Protección": "Cámara antiviento de vidrio",
+        "Alimentación": "220 V / 60 Hz"
+      },
+      "presentaciones": [
+        {
+          "descripcion": "Balanza analítica, legibilidad 0,1 mg",
+          "unidad": "Unidad"
+        },
+        {
+          "descripcion": "Balanza de precisión, legibilidad 0,01 g",
+          "unidad": "Unidad"
+        },
+        {
+          "descripcion": "Juego de pesas de calibración",
+          "unidad": "Juego"
+        }
+      ]
+    },
+    {
+      "id": "microscopio-biologico",
+      "nombre": "Microscopio biológico monocular",
+      "categoria": "equipos",
+      "subcategoria": "Microscopía",
+      "resumen": "Microscopio para uso educativo y de rutina con iluminación LED regulable.",
+      "descripcion": "Equipo robusto para prácticas de laboratorio en colegios, institutos y universidades, así como para observaciones de rutina. Óptica acromática y enfoque macro y micrométrico.",
+      "imagen": "https://images.unsplash.com/photo-1526930382372-67bf22c0fce2?auto=format&fit=crop&w=1600&q=80",
+      "imagenes": [
+        "https://images.unsplash.com/photo-1518152006812-edab29b069ac?auto=format&fit=crop&w=1600&q=80"
+      ],
+      "etiquetas": [
+        "microscopio",
+        "microscopia",
+        "educativo"
+      ],
+      "destacado": true,
+      "especificaciones": {
+        "Cabezal": "Monocular, inclinado",
+        "Objetivos": "Acromáticos 4x, 10x y 40x (según modelo)",
+        "Ocular": "WF10x",
+        "Iluminación": "LED con regulación de intensidad",
+        "Enfoque": "Macro y micrométrico"
+      },
+      "presentaciones": [
+        {
+          "descripcion": "Microscopio monocular",
+          "unidad": "Unidad"
+        },
+        {
+          "descripcion": "Microscopio binocular",
+          "unidad": "Unidad"
+        }
+      ]
+    },
+    {
+      "id": "tamices-ensayo",
+      "nombre": "Tamices de ensayo de acero inoxidable",
+      "categoria": "equipos",
+      "subcategoria": "Tamizado",
+      "resumen": "Tamices para análisis granulométrico en diversas aberturas de malla, con tapa y fondo colector.",
+      "descripcion": "Tamices de marco y malla de acero inoxidable para análisis de tamaño de partícula en laboratorios de suelos, minería, alimentos y control de calidad.",
+      "imagen": "https://images.unsplash.com/photo-1646956141271-05281b4ef472?auto=format&fit=crop&w=1600&q=80",
+      "etiquetas": [
+        "tamiz",
+        "malla",
+        "granulometria"
+      ],
+      "especificaciones": {
+        "Material": "Acero inoxidable",
+        "Diámetro": "200 mm (8\") y otros, según requerimiento",
+        "Abertura de malla": "Diversas, según N.º de malla",
+        "Accesorios": "Tapa y fondo colector"
+      },
+      "presentaciones": [
+        {
+          "descripcion": "Tamiz 200 mm, abertura según requerimiento",
+          "unidad": "Unidad"
+        },
+        {
+          "descripcion": "Tapa para tamiz 200 mm",
+          "unidad": "Unidad"
+        },
+        {
+          "descripcion": "Fondo colector 200 mm",
+          "unidad": "Unidad"
+        }
+      ]
+    },
+    {
+      "id": "porcelana",
+      "nombre": "Material de porcelana para laboratorio",
+      "categoria": "materiales",
+      "subcategoria": "Porcelana",
+      "resumen": "Morteros con pilón, crisoles, cápsulas de evaporación y embudos Büchner.",
+      "descripcion": "Piezas de porcelana esmaltada para molienda, calcinación, evaporación y filtración al vacío. Resistentes a altas temperaturas y al ataque químico.",
+      "imagen": "https://images.unsplash.com/photo-1492552296703-4ec0a2fb3715?auto=format&fit=crop&w=1600&q=80",
+      "etiquetas": [
+        "mortero",
+        "crisol",
+        "capsula",
+        "buchner",
+        "porcelana"
+      ],
+      "especificaciones": {
+        "Material": "Porcelana esmaltada",
+        "Resistencia": "Alta temperatura y ataque químico",
+        "Uso": "Molienda, calcinación, evaporación y filtración"
+      },
+      "presentaciones": [
+        {
+          "descripcion": "Mortero con pilón",
+          "unidad": "Unidad"
+        },
+        {
+          "descripcion": "Crisol forma media",
+          "unidad": "Unidad"
+        },
+        {
+          "descripcion": "Cápsula de evaporación",
+          "unidad": "Unidad"
+        },
+        {
+          "descripcion": "Embudo Büchner",
+          "unidad": "Unidad"
+        }
+      ]
+    },
+    {
+      "id": "gradillas",
+      "nombre": "Gradillas para tubos de ensayo",
+      "categoria": "materiales",
+      "subcategoria": "Plásticos",
+      "resumen": "Gradillas de polipropileno en varios colores y capacidades.",
+      "descripcion": "Soportes para la organización de tubos de ensayo y de muestra. El código de colores ayuda a separar procesos y tipos de muestra.",
+      "imagen": "https://images.unsplash.com/photo-1694230155228-cdde50083573?auto=format&fit=crop&w=1600&q=80",
+      "etiquetas": [
+        "gradilla",
+        "rack",
+        "soporte",
+        "tubos"
+      ],
+      "especificaciones": {
+        "Material": "Polipropileno",
+        "Esterilización": "Autoclavable (según modelo)",
+        "Colores": "Varios",
+        "Capacidad": "Según diámetro de tubo"
+      },
+      "presentaciones": [
+        {
+          "descripcion": "Gradilla para tubos de 13 mm",
+          "unidad": "Unidad"
+        },
+        {
+          "descripcion": "Gradilla para tubos de 16 mm",
+          "unidad": "Unidad"
+        },
+        {
+          "descripcion": "Gradilla para tubos de 25 mm",
+          "unidad": "Unidad"
+        }
+      ]
+    },
+    {
+      "id": "papel-filtro",
+      "nombre": "Papel filtro cualitativo y cuantitativo",
+      "categoria": "materiales",
+      "subcategoria": "Filtración",
+      "resumen": "Círculos de papel filtro en diversos diámetros y grados de retención.",
+      "descripcion": "Papel filtro para filtraciones generales y análisis gravimétricos. Disponible en grados cualitativos y cuantitativos.",
+      "imagen": "https://images.unsplash.com/photo-1617155093730-a8bf47be792d?auto=format&fit=crop&w=1600&q=80",
+      "etiquetas": [
+        "papel filtro",
+        "filtracion",
+        "circulos"
+      ],
+      "especificaciones": {
+        "Formato": "Círculos",
+        "Tipos": "Cualitativo y cuantitativo",
+        "Diámetros": "Diversos, según requerimiento"
+      },
+      "presentaciones": [
+        {
+          "descripcion": "Círculos de 110 mm",
+          "unidad": "Caja x 100"
+        },
+        {
+          "descripcion": "Círculos de 125 mm",
+          "unidad": "Caja x 100"
+        },
+        {
+          "descripcion": "Círculos de 150 mm",
+          "unidad": "Caja x 100"
+        }
+      ]
+    },
+    {
+      "id": "cristaleria-borosilicato",
+      "nombre": "Cristalería de vidrio borosilicato",
+      "categoria": "materiales",
+      "subcategoria": "Cristalería",
+      "resumen": "Vasos de precipitado, matraces, probetas y fiolas graduadas.",
+      "descripcion": "Material volumétrico y de uso general en vidrio borosilicato, resistente al choque térmico y a la mayoría de agentes químicos.",
+      "imagen": "https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?auto=format&fit=crop&w=1600&q=80",
+      "imagenes": [
+        "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=1600&q=80"
+      ],
+      "etiquetas": [
+        "vaso precipitado",
+        "matraz",
+        "erlenmeyer",
+        "probeta",
+        "fiola"
+      ],
+      "destacado": true,
+      "especificaciones": {
+        "Material": "Vidrio borosilicato 3.3",
+        "Graduación": "Según pieza",
+        "Resistencia": "Choque térmico y ataque químico"
+      },
+      "presentaciones": [
+        {
+          "descripcion": "Vaso de precipitado 250 mL",
+          "unidad": "Unidad"
+        },
+        {
+          "descripcion": "Matraz Erlenmeyer 250 mL",
+          "unidad": "Unidad"
+        },
+        {
+          "descripcion": "Probeta graduada 100 mL",
+          "unidad": "Unidad"
+        },
+        {
+          "descripcion": "Fiola (matraz aforado) 100 mL",
+          "unidad": "Unidad"
+        }
+      ]
+    },
+    {
+      "id": "reactivos-pa",
+      "nombre": "Reactivos y solventes grado analítico",
+      "categoria": "reactivos",
+      "subcategoria": "Reactivos",
+      "marca": "Merck · Sigma-Aldrich",
+      "resumen": "Ácidos, sales, solventes e indicadores con certificado de análisis.",
+      "descripcion": "Reactivos para análisis químico, control de calidad e investigación. Cada lote cuenta con certificado de análisis y hoja de seguridad.",
+      "imagen": "https://images.unsplash.com/photo-1671493229048-4dddd00ca84a?auto=format&fit=crop&w=1600&q=80",
+      "imagenes": [
+        "https://images.unsplash.com/photo-1602928321679-560bb453f190?auto=format&fit=crop&w=1600&q=80"
+      ],
+      "etiquetas": [
+        "reactivo",
+        "solvente",
+        "acido",
+        "p.a.",
+        "analitico"
+      ],
+      "destacado": true,
+      "especificaciones": {
+        "Grado": "Analítico (p.a.) y otros, según producto",
+        "Documentación": "Certificado de análisis por lote y SDS",
+        "Envase": "Vidrio o plástico, según producto"
+      },
+      "presentaciones": [
+        {
+          "descripcion": "Frasco 500 mL",
+          "unidad": "Unidad"
+        },
+        {
+          "descripcion": "Frasco 1 L",
+          "unidad": "Unidad"
+        },
+        {
+          "descripcion": "Frasco 2,5 L",
+          "unidad": "Unidad"
+        },
+        {
+          "descripcion": "Frasco 500 g",
+          "unidad": "Unidad"
+        }
+      ]
+    },
+    {
+      "id": "tiras-ph-mquant",
+      "nombre": "Tiras indicadoras de pH 0–14",
+      "categoria": "reactivos",
+      "subcategoria": "Indicadores",
+      "marca": "Merck",
+      "modelo": "MQuant®",
+      "resumen": "Tiras de escala universal con lectura por comparación de color.",
+      "descripcion": "Tiras con zonas reactivas fijadas que no sangran en la muestra, para una lectura rápida del pH en el laboratorio o en campo.",
+      "imagen": "https://images.unsplash.com/photo-1639772823849-6efbd173043c?auto=format&fit=crop&w=1600&q=80",
+      "etiquetas": [
+        "ph",
+        "tiras",
+        "indicador"
+      ],
+      "especificaciones": {
+        "Rango": "pH 0 – 14",
+        "Lectura": "Comparación visual con escala de colores",
+        "Formato": "Tiras plásticas con zonas reactivas"
+      },
+      "presentaciones": [
+        {
+          "descripcion": "Caja de 100 tiras",
+          "unidad": "Caja"
+        }
+      ]
+    },
+    {
+      "id": "papel-ph-universal",
+      "nombre": "Papel indicador universal pH 0–14",
+      "categoria": "reactivos",
+      "subcategoria": "Indicadores",
+      "resumen": "Papel indicador en librillo con escala de colores.",
+      "descripcion": "Indicador económico para determinaciones rápidas de pH en prácticas educativas y controles de rutina.",
+      "imagen": "https://images.unsplash.com/photo-1614935151651-0bea6508db6b?auto=format&fit=crop&w=1600&q=80",
+      "etiquetas": [
+        "ph",
+        "papel indicador",
+        "tornasol"
+      ],
+      "especificaciones": {
+        "Rango": "pH 0 – 14",
+        "Formato": "Librillo",
+        "Lectura": "Escala de colores incluida"
+      },
+      "presentaciones": [
+        {
+          "descripcion": "Librillo",
+          "unidad": "Unidad"
+        }
+      ]
+    },
+    {
+      "id": "kit-cloro-ph",
+      "nombre": "Kit de análisis de cloro y pH",
+      "categoria": "reactivos",
+      "subcategoria": "Análisis de agua",
+      "resumen": "Kit colorimétrico para control de agua potable y piscinas.",
+      "descripcion": "Incluye reactivos, tubos de muestra y comparador de color para determinar cloro y pH de forma rápida.",
+      "imagen": "https://images.unsplash.com/photo-1593410007149-d56f28d22493?auto=format&fit=crop&w=1600&q=80",
+      "etiquetas": [
+        "cloro",
+        "ph",
+        "agua",
+        "piscina",
+        "kit"
+      ],
+      "especificaciones": {
+        "Parámetros": "Cloro y pH",
+        "Método": "Colorimétrico por comparación",
+        "Aplicación": "Agua potable y piscinas",
+        "Contenido": "Reactivos, tubos de muestra y comparador"
+      },
+      "presentaciones": [
+        {
+          "descripcion": "Kit completo",
+          "unidad": "Unidad"
+        },
+        {
+          "descripcion": "Reposición de reactivos",
+          "unidad": "Juego"
+        }
+      ]
+    },
+    {
+      "id": "lamotte-cloro",
+      "nombre": "Kit de análisis de cloro con tabletas",
+      "categoria": "reactivos",
+      "subcategoria": "Análisis de agua",
+      "marca": "LaMotte",
+      "resumen": "Determinación de cloro libre y total mediante tabletas reactivas.",
+      "descripcion": "Sistema de tabletas reactivas y comparador de color para la medición de cloro en agua potable, piscinas y procesos.",
+      "imagen": "https://images.unsplash.com/photo-1595311182166-d63273ddc386?auto=format&fit=crop&w=1600&q=80",
+      "etiquetas": [
+        "cloro",
+        "agua",
+        "tabletas",
+        "kit"
+      ],
+      "especificaciones": {
+        "Parámetros": "Cloro libre y total",
+        "Método": "Tabletas reactivas y comparador de color",
+        "Aplicación": "Agua potable, piscinas y procesos"
+      },
+      "presentaciones": [
+        {
+          "descripcion": "Kit",
+          "unidad": "Unidad"
+        },
+        {
+          "descripcion": "Tabletas de reposición",
+          "unidad": "Caja"
+        }
+      ]
+    },
+    {
+      "id": "solventes-jtbaker",
+      "nombre": "Solventes y reactivos de alta pureza",
+      "categoria": "reactivos",
+      "subcategoria": "Solventes",
+      "marca": "J.T.Baker",
+      "resumen": "Para análisis instrumental y aplicaciones generales de laboratorio.",
+      "descripcion": "Solventes y reactivos de alta pureza con certificado de análisis y hoja de seguridad.",
+      "imagen": "https://images.unsplash.com/photo-1602928321679-560bb453f190?auto=format&fit=crop&w=1600&q=80",
+      "etiquetas": [
+        "solvente",
+        "hplc",
+        "alta pureza"
+      ],
+      "especificaciones": {
+        "Aplicación": "Análisis instrumental y uso general de laboratorio",
+        "Documentación": "Certificado de análisis y SDS"
+      },
+      "presentaciones": [
+        {
+          "descripcion": "Frasco 1 L",
+          "unidad": "Unidad"
+        },
+        {
+          "descripcion": "Frasco 4 L",
+          "unidad": "Unidad"
+        }
+      ]
+    },
+    {
+      "id": "jeringas",
+      "nombre": "Jeringas descartables",
+      "categoria": "medico",
+      "subcategoria": "Toma de muestra",
+      "marca": "BD",
+      "resumen": "Jeringas estériles de un solo uso, con y sin aguja.",
+      "descripcion": "Jeringas de polipropileno estériles para administración y toma de muestras.",
+      "imagen": "https://images.unsplash.com/photo-1666446224369-2783384adf02?auto=format&fit=crop&w=1600&q=80",
+      "etiquetas": [
+        "jeringa",
+        "aguja",
+        "descartable"
+      ],
+      "especificaciones": {
+        "Material": "Polipropileno, estéril, de un solo uso",
+        "Capacidades": "1, 3, 5, 10 y 20 mL",
+        "Aguja": "Con o sin aguja, según presentación"
+      },
+      "presentaciones": [
+        {
+          "descripcion": "Jeringa 3 mL",
+          "unidad": "Caja x 100"
+        },
+        {
+          "descripcion": "Jeringa 5 mL",
+          "unidad": "Caja x 100"
+        },
+        {
+          "descripcion": "Jeringa 10 mL",
+          "unidad": "Caja x 100"
+        }
+      ]
+    },
+    {
+      "id": "tubos-extraccion",
+      "nombre": "Tubos para extracción de sangre al vacío",
+      "categoria": "medico",
+      "subcategoria": "Toma de muestra",
+      "marca": "BD",
+      "resumen": "Tubos con y sin aditivo para hematología, bioquímica y coagulación.",
+      "descripcion": "Sistema de extracción al vacío que estandariza el volumen de muestra y reduce la manipulación.",
+      "imagen": "https://images.unsplash.com/photo-1606206591513-adbfbdd7a177?auto=format&fit=crop&w=1600&q=80",
+      "etiquetas": [
+        "tubo",
+        "vacutainer",
+        "extraccion",
+        "edta",
+        "citrato"
+      ],
+      "destacado": true,
+      "especificaciones": {
+        "Sistema": "Extracción al vacío",
+        "Aditivos": "Sin aditivo, EDTA, citrato o gel separador (según tipo)",
+        "Uso": "Hematología, bioquímica y coagulación"
+      },
+      "presentaciones": [
+        {
+          "descripcion": "Tubo tapa lila (EDTA)",
+          "unidad": "Caja x 100"
+        },
+        {
+          "descripcion": "Tubo tapa celeste (citrato)",
+          "unidad": "Caja x 100"
+        },
+        {
+          "descripcion": "Tubo tapa roja (sin aditivo)",
+          "unidad": "Caja x 100"
+        },
+        {
+          "descripcion": "Tubo tapa amarilla (gel separador)",
+          "unidad": "Caja x 100"
+        }
+      ]
+    },
+    {
+      "id": "agujas-lancetas",
+      "nombre": "Agujas y lancetas",
+      "categoria": "medico",
+      "subcategoria": "Toma de muestra",
+      "resumen": "Agujas para extracción múltiple y lancetas para punción capilar.",
+      "descripcion": "Insumos estériles de un solo uso para toma de muestra venosa y capilar.",
+      "imagen": "https://images.unsplash.com/photo-1581594549595-35f6edc7b762?auto=format&fit=crop&w=1600&q=80",
+      "etiquetas": [
+        "aguja",
+        "lanceta",
+        "puncion"
+      ],
+      "especificaciones": {
+        "Tipos": "Agujas para extracción múltiple y lancetas",
+        "Esterilidad": "Estériles, de un solo uso",
+        "Calibres": "Según requerimiento"
+      },
+      "presentaciones": [
+        {
+          "descripcion": "Agujas para extracción múltiple",
+          "unidad": "Caja x 100"
+        },
+        {
+          "descripcion": "Lancetas",
+          "unidad": "Caja x 100"
+        }
+      ]
+    },
+    {
+      "id": "guantes-examen",
+      "nombre": "Guantes de examen",
+      "categoria": "medico",
+      "subcategoria": "Protección",
+      "resumen": "Guantes de nitrilo y látex en tallas S, M y L.",
+      "descripcion": "Guantes descartables para protección del personal en laboratorio clínico y manipulación de muestras.",
+      "imagen": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?auto=format&fit=crop&w=1600&q=80",
+      "etiquetas": [
+        "guantes",
+        "nitrilo",
+        "latex",
+        "epp"
+      ],
+      "especificaciones": {
+        "Material": "Nitrilo o látex",
+        "Tallas": "S, M y L",
+        "Presentación": "Caja x 100 unidades"
+      },
+      "presentaciones": [
+        {
+          "descripcion": "Guantes de nitrilo",
+          "unidad": "Caja x 100"
+        },
+        {
+          "descripcion": "Guantes de látex",
+          "unidad": "Caja x 100"
+        }
+      ]
+    }
+  ]
+}

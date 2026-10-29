@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dayvilab E.I.R.L. | Equipos, reactivos y materiales de laboratorio</title>
+<meta name="description" content="Importación y distribución de equipos, reactivos, cristalería y material médico para laboratorios clínicos, educativos, químicos e industriales. Cotizaciones formales con factura electrónica y envíos a Lima y provincias.">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500&display=swap">
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<script src="assets/js/arranque.js"></script>
+<script src="https://unpkg.com/lucide@0.344.0/dist/umd/lucide.min.js"></script>
+<link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+<!-- ============ TOP BAR ============ -->
+<div class="bg-ink text-slate-200 text-[13px]">
+  <div class="wrap flex items-center justify-between gap-4 py-2">
+    <p class="flex items-center gap-2 min-w-0"><i data-lucide="badge-check" class="w-4 h-4 text-[#5ED6DA] flex-none"></i><span class="truncate">Factura electrónica · Envíos a Lima y todo el Perú</span></p>
+    <div class="hidden md:flex items-center gap-5">
+      <a href="tel:+51993007474" class="flex items-center gap-1.5 hover:text-white"><i data-lucide="phone" class="w-3.5 h-3.5"></i>+51 993 007 474</a>
+      <a href="mailto:dayvilab2@gmail.com" class="flex items-center gap-1.5 hover:text-white"><i data-lucide="mail" class="w-3.5 h-3.5"></i>dayvilab2@gmail.com</a>
+      <span class="mono text-slate-400">RUC 20565350987</span>
+    </div>
+  </div>
+</div>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="header">
+  <div class="wrap flex items-center justify-between gap-4 h-[72px]">
+    <a href="#inicio" class="flex-none" aria-label="Dayvilab E.I.R.L. — Ir al inicio">
+      <img src="assets/img/logo-dayvilab.png" alt="Dayvilab E.I.R.L." class="h-10 md:h-11 w-auto">
+    </a>
+    <nav aria-label="Navegación principal" class="hidden lg:flex items-center gap-6">
+      <a class="nav-link" href="#catalogo">Catálogo</a>
+      <a class="nav-link" href="#marcas">Marcas</a>
+      <a class="nav-link" href="#sectores">Sectores</a>
+      <a class="nav-link" href="#proceso">Proceso</a>
+      <a class="nav-link" href="#nosotros">Nosotros</a>
+      <a class="nav-link" href="#cotizar">Contacto</a>
+    </nav>
+    <div class="flex items-center gap-2 md:gap-3">
+      <button type="button" class="relative w-11 h-11 grid place-items-center rounded-[10px] border border-line text-ink2 hover:border-brand hover:text-brand transition" data-open-drawer aria-label="Abrir mi lista de cotización">
+        <i data-lucide="clipboard-list" class="w-5 h-5"></i>
+        <span class="cart-count" data-cart-count hidden>0</span>
+      </button>
+      <button type="button" class="btn btn-primary btn-sm hidden sm:inline-flex" data-open-quote>Solicitar cotización</button>
+      <button type="button" class="lg:hidden w-11 h-11 grid place-items-center rounded-[10px] text-ink" id="menuBtn" aria-expanded="false" aria-controls="mobileMenu" aria-label="Abrir menú">
+        <i data-lucide="menu" class="w-6 h-6"></i>
+      </button>
+    </div>
+  </div>
+  <div id="mobileMenu" class="lg:hidden border-t border-line bg-white" hidden>
+    <nav class="wrap py-4 flex flex-col" aria-label="Navegación móvil">
+      <a class="py-3 font-semibold text-ink border-b border-line" href="#catalogo">Catálogo</a>
+      <a class="py-3 font-semibold text-ink border-b border-line" href="#marcas">Marcas</a>
+      <a class="py-3 font-semibold text-ink border-b border-line" href="#sectores">Sectores</a>
+      <a class="py-3 font-semibold text-ink border-b border-line" href="#proceso">Proceso</a>
+      <a class="py-3 font-semibold text-ink border-b border-line" href="#nosotros">Nosotros</a>
+      <a class="py-3 font-semibold text-ink" href="#cotizar">Contacto</a>
+      <button type="button" class="btn btn-primary mt-4 w-full" data-open-quote>Solicitar cotización formal</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+<!-- ============ HERO ============ -->
+<section id="inicio" class="hero">
+  <div class="wrap grid lg:grid-cols-[1.1fr_1fr] gap-12 lg:gap-14 items-center pt-12 pb-16 lg:pt-20 lg:pb-24">
+    <div class="min-w-0">
+      <span class="eyebrow">Importación y distribución · Lima y provincias</span>
+      <h1 class="mt-5">Equipamiento y suministros de laboratorio con <span class="hl">respaldo técnico</span> y entrega a nivel nacional</h1>
+      <p class="lead mt-6">Importamos y distribuimos equipos, reactivos, cristalería y material médico para laboratorios clínicos, educativos, químicos e industriales. Cotizaciones formales con factura electrónica y despacho a Lima y provincias.</p>
+      <div class="mt-8 flex flex-col sm:flex-row gap-3">
+        <button type="button" class="btn btn-primary" data-open-quote><i data-lucide="file-text" class="w-[18px] h-[18px]"></i>Solicitar cotización formal</button>
+        <a href="#catalogo" class="btn btn-outline">Ver catálogo<i data-lucide="arrow-right" class="w-[18px] h-[18px]"></i></a>
+      </div>
+      <a href="#" data-wa="general" target="_blank" rel="noopener" class="mt-5 inline-flex items-center gap-2 text-[15px] font-semibold text-brand hover:text-brand-dark">
+        ¿Requiere atención inmediata? Escríbanos por WhatsApp <i data-lucide="arrow-right" class="w-4 h-4"></i>
+      </a>
+      <ul class="mt-10 grid sm:grid-cols-3 gap-4 border-t border-line pt-6 text-sm">
+        <li class="flex items-center gap-2.5"><i data-lucide="receipt" class="w-5 h-5 text-clinic flex-none"></i><span><strong class="text-ink">Factura electrónica</strong><br><span class="text-steel">válida ante SUNAT</span></span></li>
+        <li class="flex items-center gap-2.5"><i data-lucide="truck" class="w-5 h-5 text-clinic flex-none"></i><span><strong class="text-ink">Lima y provincias</strong><br><span class="text-steel">despacho nacional</span></span></li>
+        <li class="flex items-center gap-2.5"><i data-lucide="timer" class="w-5 h-5 text-clinic flex-none"></i><span><strong class="text-ink">Menos de 24 h</strong><br><span class="text-steel">respuesta en días hábiles</span></span></li>
+      </ul>
+    </div>
+
+    <div class="relative min-w-0">
+      <figure class="hero-photo">
+        <img data-web class="ph" src="https://images.unsplash.com/photo-1602052577122-f73b9710adba?auto=format&fit=crop&w=1400&q=80" data-fallback="assets/img/referencia/micro.jpg" alt="Mesa de laboratorio con microscopio y equipos de análisis" fetchpriority="high">
+      </figure>
+      <div class="doc-chip left-3 sm:-left-6 bottom-6" aria-hidden="true">
+        <span class="icon-box !w-10 !h-10"><i data-lucide="file-check-2"></i></span>
+        <span class="leading-tight"><span class="block text-[13px] font-bold text-ink">Cotización formal</span><span class="mono text-[12px] text-steel">RUC 20565350987</span></span>
+      </div>
+      <div class="doc-chip hidden sm:flex right-3 lg:-right-4 top-6" aria-hidden="true">
+        <span class="icon-box !w-10 !h-10"><i data-lucide="truck"></i></span>
+        <span class="leading-tight"><span class="block text-[13px] font-bold text-ink">Envíos a todo el Perú</span><span class="text-[12px] text-steel">Lima y provincias</span></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRUST STRIP ============ -->
+<section aria-label="Garantías operativas" class="border-y border-line bg-white">
+  <div class="wrap grid sm:grid-cols-2 lg:grid-cols-4 gap-8 py-10">
+    <div class="trust-item"><span class="icon-box"><i data-lucide="receipt"></i></span><div><h3 class="font-bold text-[16px]">Factura electrónica</h3><p class="text-sm text-steel mt-1">Emitimos comprobantes válidos ante SUNAT. <span class="mono whitespace-nowrap">RUC 20565350987</span>.</p></div></div>
+    <div class="trust-item"><span class="icon-box"><i data-lucide="truck"></i></span><div><h3 class="font-bold text-[16px]">Envíos a todo el Perú</h3><p class="text-sm text-steel mt-1">Entrega en Lima y despacho a provincias vía agencia de transporte.</p></div></div>
+    <div class="trust-item"><span class="icon-box"><i data-lucide="shield-check"></i></span><div><h3 class="font-bold text-[16px]">Productos certificados</h3><p class="text-sm text-steel mt-1">Marcas reconocidas con fichas técnicas y certificados de análisis.</p></div></div>
+    <div class="trust-item"><span class="icon-box"><i data-lucide="clipboard-check"></i></span><div><h3 class="font-bold text-[16px]">Atención a licitaciones</h3><p class="text-sm text-steel mt-1">Cotizamos según especificaciones técnicas, bases y términos de referencia.</p></div></div>
+  </div>
+</section>
+
+<!-- ============ CATEGORIES ============ -->
+<section id="categorias" class="band band-alt">
+  <div class="wrap">
+    <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
+      <div>
+        <span class="eyebrow">Líneas de producto</span>
+        <h2 class="h2 mt-3">Todo lo que su laboratorio necesita, en un solo proveedor</h2>
+      </div>
+      <p class="lead md:max-w-[40ch] md:text-right text-[15px]">Seleccione una línea para ver los productos disponibles.</p>
+    </div>
+    <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-4 gap-5" id="catTiles"></div>
+  </div>
+</section>
+
+<!-- ============ CATALOG ============ -->
+<section id="catalogo" class="band">
+  <div class="wrap">
+    <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-3">
+      <div>
+        <span class="eyebrow">Catálogo</span>
+        <h2 class="h2 mt-3">Catálogo de productos</h2>
+        <p class="lead mt-3">Busque por nombre, marca o código. Abra la ficha técnica de cada producto o añádalo a su lista de cotización.</p>
+      </div>
+      <p class="text-sm text-steel md:text-right" id="catalogMeta"></p>
+    </div>
+
+    <div class="mt-8 toolbar">
+      <div class="search-box">
+        <i data-lucide="search"></i>
+        <label for="catalogSearch" class="sr-only">Buscar productos</label>
+        <input id="catalogSearch" type="search" placeholder="Buscar por producto, marca o código…" autocomplete="off" enterkeyhint="search">
+      </div>
+      <div>
+        <label for="brandFilter" class="sr-only">Filtrar por marca</label>
+        <select id="brandFilter" class="select w-full"><option value="">Todas las marcas</option></select>
+      </div>
+      <div>
+        <label for="sortSelect" class="sr-only">Ordenar</label>
+        <select id="sortSelect" class="select w-full">
+          <option value="relevancia">Orden: destacados primero</option>
+          <option value="az">Nombre: A → Z</option>
+          <option value="za">Nombre: Z → A</option>
+          <option value="marca">Marca: A → Z</option>
+        </select>
+      </div>
+    </div>
+    <div class="pills-scroll -mx-4 px-4 lg:mx-0 lg:px-0 mt-4">
+      <div class="flex gap-2 w-max" role="group" aria-label="Filtrar por categoría" id="filterPills"></div>
+    </div>
+
+    <div class="mt-6 flex flex-wrap items-center justify-between gap-3">
+      <p class="text-sm text-steel" aria-live="polite" id="resultCount">Cargando catálogo…</p>
+      <button type="button" class="text-sm font-semibold text-brand hover:text-brand-dark inline-flex items-center gap-1" id="clearFilters" hidden><i data-lucide="rotate-ccw" class="w-4 h-4"></i>Limpiar filtros</button>
+    </div>
+    <div class="product-grid mt-4" id="productGrid" aria-busy="true"></div>
+
+    <div id="emptyState" class="mt-4 text-center border border-dashed border-line rounded-2xl py-14 px-6" hidden>
+      <i data-lucide="search-x" class="w-10 h-10 text-steel mx-auto"></i>
+      <p class="mt-3 font-semibold text-ink">No encontramos productos con ese criterio.</p>
+      <p class="text-steel text-sm mt-1">Pruebe con otro término o escríbanos con el detalle de lo que necesita.</p>
+      <a href="#" data-wa="general" target="_blank" rel="noopener" class="btn btn-wa btn-sm mt-5"><span class="wa-glyph"></span>Consultar por WhatsApp</a>
+    </div>
+    <div id="loadError" class="mt-4 notice notice-error" hidden>
+      <i data-lucide="alert-circle"></i>
+      <div><strong>No se pudo cargar el catálogo.</strong> <span id="loadErrorMsg">Verifique su conexión y recargue la página.</span>
+        <button type="button" class="underline font-semibold ml-1" id="retryLoad">Reintentar</button></div>
+    </div>
+
+    <nav class="mt-10" aria-label="Paginación del catálogo"><div class="pager" id="pager"></div></nav>
+
+    <div class="mt-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 rounded-2xl bg-surface border border-line p-6">
+      <div class="flex gap-4 items-start">
+        <span class="icon-box"><i data-lucide="package-search"></i></span>
+        <div>
+          <p class="font-bold text-ink">¿No encuentra lo que busca?</p>
+          <p class="text-sm text-steel mt-1">Indíquenos el producto, marca o código y le confirmamos disponibilidad.</p>
+        </div>
+      </div>
+      <button type="button" class="btn btn-outline btn-sm flex-none" data-open-drawer data-focus-custom>Consultar disponibilidad<i data-lucide="arrow-right" class="w-4 h-4"></i></button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BRANDS ============ -->
+<section id="marcas" class="band band-alt">
+  <div class="wrap">
+    <div class="text-center max-w-2xl mx-auto">
+      <span class="eyebrow">Marcas que comercializamos</span>
+      <h2 class="h2 mt-3">Trabajamos con marcas líderes a nivel mundial</h2>
+      <p class="lead mt-3 mx-auto">Productos con trazabilidad, documentación técnica y respaldo de fabricante.</p>
+    </div>
+    <ul class="mt-10 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+      <li class="brand-cell"><img src="assets/img/marcas/merck.png" alt="Merck"></li>
+      <li class="brand-cell"><span class="brand-word">Sigma-Aldrich</span></li>
+      <li class="brand-cell"><img src="assets/img/marcas/jtbaker.png" alt="J.T.Baker"></li>
+      <li class="brand-cell"><img src="assets/img/marcas/bd.png" alt="BD"></li>
+      <li class="brand-cell"><img src="assets/img/marcas/boeco.png" alt="BOECO Germany"></li>
+      <li class="brand-cell"><span class="brand-word">LaMotte</span></li>
+    </ul>
+    <p class="mt-6 text-center text-xs text-steel">Las marcas mencionadas son propiedad de sus respectivos titulares.</p>
+  </div>
+</section>
+
+<!-- ============ SECTORS ============ -->
+<section id="sectores" class="band">
+  <div class="wrap">
+    <span class="eyebrow">Sectores que atendemos</span>
+    <h2 class="h2 mt-3 max-w-[22ch]">Suministro especializado para cada tipo de laboratorio</h2>
+    <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      <article class="sector"><span class="icon-box"><i data-lucide="stethoscope"></i></span><h3 class="mt-5 font-bold text-[17px]">Laboratorios clínicos</h3><p class="mt-2 text-sm text-steel">Análisis clínicos, toma de muestras, hospitales y clínicas.</p></article>
+      <article class="sector"><span class="icon-box"><i data-lucide="graduation-cap"></i></span><h3 class="mt-5 font-bold text-[17px]">Instituciones educativas</h3><p class="mt-2 text-sm text-steel">Colegios, institutos y universidades: equipamiento de aulas y laboratorios.</p></article>
+      <article class="sector"><span class="icon-box"><i data-lucide="flask-conical"></i></span><h3 class="mt-5 font-bold text-[17px]">Laboratorios químicos</h3><p class="mt-2 text-sm text-steel">Control de calidad y análisis fisicoquímico con reactivos grado analítico.</p></article>
+      <article class="sector"><span class="icon-box"><i data-lucide="factory"></i></span><h3 class="mt-5 font-bold text-[17px]">Industria</h3><p class="mt-2 text-sm text-steel">Alimentaria, minera, agroindustrial y tratamiento de agua.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section id="proceso" class="band band-alt">
+  <div class="wrap">
+    <span class="eyebrow">Proceso de cotización</span>
+    <h2 class="h2 mt-3">De su requerimiento a su laboratorio en cuatro pasos</h2>
+    <ol class="steps mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-10">
+      <li class="step"><span class="step-num">PASO 01</span><h3 class="mt-2 font-bold text-[17px]">Envíe su requerimiento</h3><p class="mt-2 text-sm text-steel">Por formulario, WhatsApp o correo, con la lista de productos y cantidades.</p></li>
+      <li class="step"><span class="step-num">PASO 02</span><h3 class="mt-2 font-bold text-[17px]">Evaluación técnica</h3><p class="mt-2 text-sm text-steel">Validamos especificaciones, presentaciones y disponibilidad de stock.</p></li>
+      <li class="step"><span class="step-num">PASO 03</span><h3 class="mt-2 font-bold text-[17px]">Cotización formal</h3><p class="mt-2 text-sm text-steel">Precios, plazos y condiciones comerciales en menos de 24 h hábiles.</p></li>
+      <li class="step"><span class="step-num">PASO 04</span><h3 class="mt-2 font-bold text-[17px]">Despacho y facturación</h3><p class="mt-2 text-sm text-steel">Entrega en Lima o envío a provincia, con factura electrónica.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section id="nosotros" class="band">
+  <div class="wrap grid lg:grid-cols-2 gap-12 items-center">
+    <div class="min-w-0">
+      <span class="eyebrow">Por qué Dayvilab</span>
+      <h2 class="h2 mt-3">Rigurosidad técnica en cada suministro</h2>
+      <p class="mt-5 text-[17px] leading-relaxed">Dayvilab E.I.R.L. es una empresa peruana dedicada a la importación y distribución de insumos de laboratorio. Acompañamos a nuestros clientes desde la selección técnica del producto hasta su entrega.</p>
+      <ul class="mt-8 grid sm:grid-cols-2 gap-4">
+        <li class="flex gap-3"><i data-lucide="check-circle-2" class="w-5 h-5 text-clinic flex-none mt-0.5"></i><span><strong class="text-ink">Asesoría técnica</strong><br><span class="text-sm text-steel">Le ayudamos a elegir el producto según su aplicación.</span></span></li>
+        <li class="flex gap-3"><i data-lucide="check-circle-2" class="w-5 h-5 text-clinic flex-none mt-0.5"></i><span><strong class="text-ink">Stock permanente</strong><br><span class="text-sm text-steel">En productos de alta rotación.</span></span></li>
+        <li class="flex gap-3"><i data-lucide="check-circle-2" class="w-5 h-5 text-clinic flex-none mt-0.5"></i><span><strong class="text-ink">Cumplimiento de plazos</strong><br><span class="text-sm text-steel">Fechas de entrega confirmadas en la cotización.</span></span></li>
+        <li class="flex gap-3"><i data-lucide="check-circle-2" class="w-5 h-5 text-clinic flex-none mt-0.5"></i><span><strong class="text-ink">Documentación técnica</strong><br><span class="text-sm text-steel">Fichas técnicas, hojas de seguridad (SDS) y certificados de análisis.</span></span></li>
+      </ul>
+    </div>
+    <div class="grid grid-cols-5 gap-4 items-center">
+      <div class="photo-frame col-span-3 aspect-[4/5]"><img data-web class="ph" src="https://images.unsplash.com/photo-1639772823907-a716be4bdecc?auto=format&fit=crop&w=900&q=80" data-fallback="assets/img/referencia/micro.jpg" alt="Especialista operando un microscopio en laboratorio" loading="lazy"></div>
+      <div class="col-span-2 flex flex-col gap-4">
+        <div class="photo-frame aspect-square"><img data-web class="ph" src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=600&q=80" data-fallback="assets/img/referencia/gradillas.jpg" alt="Dispensado de muestras en tubos de ensayo" loading="lazy"></div>
+        <div class="photo-frame aspect-square"><img data-web class="ph" src="https://images.unsplash.com/photo-1581091007718-0c50d599bfd0?auto=format&fit=crop&w=600&q=80" data-fallback="assets/img/referencia/porcelana.jpg" alt="Placa Petri bajo el microscopio" loading="lazy"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section id="faq" class="band band-alt">
+  <div class="wrap grid lg:grid-cols-[1fr_1.6fr] gap-10">
+    <div>
+      <span class="eyebrow">Preguntas frecuentes</span>
+      <h2 class="h2 mt-3">Compras corporativas sin contratiempos</h2>
+      <p class="lead mt-3 text-[15px]">¿Tiene otra consulta? Escríbanos y un asesor le responderá.</p>
+      <a href="#" data-wa="general" target="_blank" rel="noopener" class="btn btn-outline btn-sm mt-6"><span class="wa-glyph text-[#1FAF38]"></span>Hablar con un asesor técnico</a>
+    </div>
+    <div class="faq">
+      <details><summary>¿Emiten factura electrónica?<i data-lucide="plus"></i></summary><p class="ans">Sí. Emitimos factura electrónica válida ante SUNAT a nombre de su empresa o institución (RUC 20565350987).</p></details>
+      <details><summary>¿Realizan envíos a provincias? ¿Cuál es el costo?<i data-lucide="plus"></i></summary><p class="ans">Sí. Entregamos en Lima y despachamos a todo el Perú mediante agencia de transporte. El costo y la modalidad de envío se detallan en cada cotización según destino y volumen.</p></details>
+      <details><summary>¿Aceptan órdenes de compra de entidades públicas y privadas?<i data-lucide="plus"></i></summary><p class="ans">Sí. Atendemos órdenes de compra de empresas privadas e instituciones públicas, y cotizamos según las especificaciones técnicas o bases del proceso.</p></details>
+      <details><summary>¿Qué formas de pago aceptan?<i data-lucide="plus"></i></summary><p class="ans">Las condiciones y medios de pago se indican en la cotización formal. Consulte con su asesor las opciones disponibles para su empresa.</p></details>
+      <details><summary>¿Cuál es el plazo de entrega?<i data-lucide="plus"></i></summary><p class="ans">Depende del producto: los artículos en stock se despachan en menor tiempo y los productos de importación tienen un plazo mayor. El plazo exacto se confirma en cada cotización.</p></details>
+      <details><summary>¿Entregan fichas técnicas y certificados de análisis?<i data-lucide="plus"></i></summary><p class="ans">Sí, según la marca y el producto: fichas técnicas, hojas de seguridad (SDS) y certificados de análisis (CoA) por lote.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ QUOTE FORM ============ -->
+<section id="cotizar" class="band">
+  <div class="wrap grid lg:grid-cols-[0.85fr_1.4fr] gap-10 lg:gap-14 items-start">
+    <aside class="min-w-0 lg:sticky lg:top-28">
+      <span class="eyebrow">Cotización formal</span>
+      <h2 class="h2 mt-3">Solicite su cotización formal</h2>
+      <p class="lead mt-3 text-[15px]">Complete los datos de su empresa y le enviaremos una propuesta en menos de 24 h hábiles.</p>
+      <div class="mt-8">
+        <div class="contact-row"><span class="icon-box"><i data-lucide="message-circle"></i></span><div class="min-w-0"><p class="text-xs uppercase tracking-wider font-bold text-steel">WhatsApp / Teléfono</p><p class="font-semibold text-ink mono select-all">+51 993 007 474</p><button type="button" class="copy-btn -ml-1.5" data-copy="+51 993 007 474"><i data-lucide="copy"></i>Copiar</button></div></div>
+        <div class="contact-row"><span class="icon-box"><i data-lucide="mail"></i></span><div class="min-w-0"><p class="text-xs uppercase tracking-wider font-bold text-steel">Correo</p><p class="font-semibold text-ink select-all break-all">dayvilab2@gmail.com</p><button type="button" class="copy-btn -ml-1.5" data-copy="dayvilab2@gmail.com"><i data-lucide="copy"></i>Copiar</button></div></div>
+        <div class="contact-row"><span class="icon-box"><i data-lucide="map-pin"></i></span><div class="min-w-0"><p class="text-xs uppercase tracking-wider font-bold text-steel">Puntos de atención</p><p class="text-ink">Av. Emancipación 569, Int. 1012</p><p class="text-ink">Av. Emancipación 845, Int. 125</p><p class="text-sm text-steel">Cercado de Lima, Lima – Perú</p></div></div>
+        <div class="contact-row"><span class="icon-box"><i data-lucide="clock"></i></span><div class="min-w-0"><p class="text-xs uppercase tracking-wider font-bold text-steel">Horario de atención</p><p class="text-ink">Lunes a sábado</p><p class="text-sm text-steel mono">9:00 a.m. – 7:00 p.m.</p></div></div>
+      </div>
+    </aside>
+
+    <div class="min-w-0" id="formHome">
+      <div class="form-card" id="quoteFormWrap">
+        <div class="flex items-start justify-between gap-4 mb-6">
+          <div>
+            <h3 class="text-xl font-extrabold" id="quoteFormTitle">Datos de la solicitud</h3>
+            <p class="text-sm text-steel mt-1">Los campos con <span class="text-brand font-bold">*</span> son obligatorios.</p>
+          </div>
+          <button type="button" class="w-10 h-10 grid place-items-center rounded-lg text-steel hover:text-ink hover:bg-surface flex-none" data-close-quote aria-label="Cerrar formulario" hidden><i data-lucide="x" class="w-5 h-5"></i></button>
+        </div>
+
+        <form id="quoteForm" novalidate>
+          <input type="hidden" name="_subject" id="f-subject" value="Solicitud de cotización – Web Dayvilab">
+          <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="hidden" aria-hidden="true">
+          <div class="grid sm:grid-cols-2 gap-x-5 gap-y-5">
+            <div class="field">
+              <label for="f-ruc">RUC <span class="req">*</span></label>
+              <input class="input mono" id="f-ruc" name="ruc" inputmode="numeric" maxlength="11" placeholder="20XXXXXXXXX" autocomplete="off" aria-describedby="e-ruc" required>
+              <span class="err" id="e-ruc"></span>
+            </div>
+            <div class="field">
+              <label for="f-razon">Razón social <span class="req">*</span></label>
+              <input class="input" id="f-razon" name="razon_social" placeholder="Nombre de la empresa o institución" autocomplete="organization" aria-describedby="e-razon" required>
+              <span class="err" id="e-razon"></span>
+            </div>
+            <div class="field">
+              <label for="f-contacto">Nombre del contacto <span class="req">*</span></label>
+              <input class="input" id="f-contacto" name="contacto" placeholder="Nombres y apellidos" autocomplete="name" aria-describedby="e-contacto" required>
+              <span class="err" id="e-contacto"></span>
+            </div>
+            <div class="field">
+              <label for="f-cargo">Cargo / Área <span class="hint">(opcional)</span></label>
+              <input class="input" id="f-cargo" name="cargo" placeholder="Ej.: Jefe de Logística" autocomplete="organization-title">
+            </div>
+            <div class="field">
+              <label for="f-telefono">Teléfono / WhatsApp <span class="req">*</span></label>
+              <input class="input mono" id="f-telefono" name="telefono" type="tel" inputmode="tel" placeholder="9XX XXX XXX" autocomplete="tel" aria-describedby="e-telefono" required>
+              <span class="err" id="e-telefono"></span>
+            </div>
+            <div class="field">
+              <label for="f-correo">Correo corporativo <span class="req">*</span></label>
+              <input class="input" id="f-correo" name="email" type="email" placeholder="compras@empresa.com.pe" autocomplete="email" aria-describedby="e-correo" required>
+              <span class="err" id="e-correo"></span>
+            </div>
+            <div class="field">
+              <label for="f-tipo">Tipo de institución <span class="req">*</span></label>
+              <select class="input" id="f-tipo" name="tipo_institucion" aria-describedby="e-tipo" required>
+                <option value="">Seleccione…</option>
+                <option>Laboratorio clínico</option>
+                <option>Institución educativa</option>
+                <option>Laboratorio químico</option>
+                <option>Industria</option>
+                <option>Entidad pública</option>
+                <option>Otro</option>
+              </select>
+              <span class="err" id="e-tipo"></span>
+            </div>
+            <div class="field">
+              <label for="f-entrega">Lugar de entrega <span class="req">*</span></label>
+              <select class="input" id="f-entrega" name="lugar_entrega" aria-describedby="e-entrega" required>
+                <option value="">Seleccione…</option>
+                <option>Lima Metropolitana</option>
+                <option>Callao</option>
+                <option>Provincia</option>
+              </select>
+              <span class="err" id="e-entrega"></span>
+            </div>
+            <div class="field sm:col-span-2" id="ciudadWrap" hidden>
+              <label for="f-ciudad">Ciudad / Departamento de destino <span class="req">*</span></label>
+              <input class="input" id="f-ciudad" name="ciudad_destino" placeholder="Ej.: Arequipa" aria-describedby="e-ciudad">
+              <span class="err" id="e-ciudad"></span>
+            </div>
+            <div class="field sm:col-span-2">
+              <div class="flex items-end justify-between gap-3 mb-1.5">
+                <label for="f-req" class="!mb-0">Lista de requerimientos <span class="req">*</span></label>
+                <button type="button" class="text-[13px] font-semibold text-brand hover:text-brand-dark inline-flex items-center gap-1" id="fillFromList" hidden><i data-lucide="list-plus" class="w-4 h-4"></i>Insertar mi lista (<span data-cart-count-inline>0</span>)</button>
+              </div>
+              <textarea class="input" id="f-req" name="requerimientos" placeholder="Producto, marca, presentación y cantidad. Un ítem por línea." aria-describedby="e-req" required></textarea>
+              <span class="err" id="e-req"></span>
+            </div>
+            <div class="field">
+              <label for="f-fecha">Fecha requerida <span class="hint">(opcional)</span></label>
+              <input class="input" id="f-fecha" name="fecha_requerida" type="date">
+            </div>
+            <div class="field">
+              <label for="f-obs">N.º de proceso / referencia <span class="hint">(opcional)</span></label>
+              <input class="input" id="f-obs" name="referencia" placeholder="Ej.: N.º de convocatoria u orden">
+            </div>
+            <div class="field sm:col-span-2">
+              <label for="f-notas">Observaciones <span class="hint">(opcional)</span></label>
+              <textarea class="input !min-h-[88px]" id="f-notas" name="observaciones" placeholder="Especificaciones técnicas, certificaciones requeridas u otras condiciones."></textarea>
+            </div>
+            <div class="sm:col-span-2">
+              <label class="flex gap-3 items-start text-sm text-ink2 cursor-pointer" for="f-consent">
+                <input type="checkbox" id="f-consent" name="consentimiento" value="Acepta" class="mt-1 w-[18px] h-[18px] accent-[#009FE3] flex-none" aria-describedby="e-consent" required>
+                <span>Acepto el tratamiento de mis datos personales para fines de atención comercial, conforme a la Ley N.º 29733, Ley de Protección de Datos Personales.</span>
+              </label>
+              <span class="err" id="e-consent"></span>
+            </div>
+          </div>
+
+          <div id="formStatus" class="mt-6" aria-live="polite"></div>
+
+          <div class="mt-6 flex flex-col sm:flex-row gap-3">
+            <button type="submit" class="btn btn-primary flex-1" id="submitBtn"><i data-lucide="send" class="w-[18px] h-[18px]"></i><span>Enviar solicitud de cotización</span></button>
+            <a href="#" id="formWa" target="_blank" rel="noopener" class="btn btn-wa flex-1"><span class="wa-glyph"></span>Enviar requerimiento por WhatsApp</a>
+          </div>
+          <p class="mt-4 text-xs text-steel text-center">Respondemos en menos de 24 h hábiles · Cotización con factura electrónica</p>
+        </form>
+
+        <div id="formSuccess" class="text-center py-10" hidden tabindex="-1">
+          <span class="mx-auto w-16 h-16 rounded-full grid place-items-center bg-[rgba(0,152,158,.12)] text-clinic"><i data-lucide="check" class="w-8 h-8"></i></span>
+          <h3 class="mt-5 text-2xl font-extrabold">Solicitud recibida</h3>
+          <p class="mt-2 text-steel max-w-[44ch] mx-auto">Un asesor técnico se comunicará con usted en menos de 24 h hábiles. Si su requerimiento es urgente, escríbanos por WhatsApp.</p>
+          <div class="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
+            <a href="#" data-wa="general" target="_blank" rel="noopener" class="btn btn-wa btn-sm"><span class="wa-glyph"></span>Escribir por WhatsApp</a>
+            <button type="button" class="btn btn-outline btn-sm" id="newRequest">Enviar otra solicitud</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="bg-ink text-slate-300">
+  <div class="wrap pt-16 pb-8">
+    <div class="grid sm:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1.3fr] gap-10">
+      <div>
+        <span class="inline-block bg-white rounded-xl px-4 py-3"><img src="assets/img/logo-dayvilab.png" alt="Dayvilab E.I.R.L." class="h-10 w-auto"></span>
+        <p class="mt-5 text-sm leading-relaxed max-w-[36ch]">Importación y distribución de equipos, reactivos y materiales para laboratorios clínicos, educativos, químicos e industriales.</p>
+      </div>
+      <nav aria-label="Categorías">
+        <h3 class="text-white text-sm font-bold uppercase tracking-wider">Categorías</h3>
+        <ul class="mt-4 space-y-2.5 text-sm" id="footerCats"></ul>
+      </nav>
+      <nav aria-label="Empresa">
+        <h3 class="text-white text-sm font-bold uppercase tracking-wider">Empresa</h3>
+        <ul class="mt-4 space-y-2.5 text-sm">
+          <li><a class="hover:text-white" href="#nosotros">Nosotros</a></li>
+          <li><a class="hover:text-white" href="#marcas">Marcas</a></li>
+          <li><a class="hover:text-white" href="#proceso">Proceso de cotización</a></li>
+          <li><a class="hover:text-white" href="#faq">Preguntas frecuentes</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h3 class="text-white text-sm font-bold uppercase tracking-wider">Contacto</h3>
+        <ul class="mt-4 space-y-3 text-sm">
+          <li class="flex gap-2.5"><i data-lucide="map-pin" class="w-4 h-4 mt-0.5 text-[#5ED6DA] flex-none"></i><span>Av. Emancipación 569, Int. 1012<br>Av. Emancipación 845, Int. 125<br>Lima – Perú</span></li>
+          <li class="flex gap-2.5"><i data-lucide="phone" class="w-4 h-4 mt-0.5 text-[#5ED6DA] flex-none"></i><a class="hover:text-white mono" href="tel:+51993007474">+51 993 007 474</a></li>
+          <li class="flex gap-2.5"><i data-lucide="mail" class="w-4 h-4 mt-0.5 text-[#5ED6DA] flex-none"></i><a class="hover:text-white break-all" href="mailto:dayvilab2@gmail.com">dayvilab2@gmail.com</a></li>
+          <li class="flex gap-2.5"><i data-lucide="clock" class="w-4 h-4 mt-0.5 text-[#5ED6DA] flex-none"></i><span>Lun. a sáb., 9:00 a.m. – 7:00 p.m.</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="mt-12 pt-6 border-t border-slate-700 flex flex-col md:flex-row gap-3 justify-between text-xs text-slate-400">
+      <p>© <span id="year">2026</span> Dayvilab E.I.R.L. · <span class="mono">RUC 20565350987</span> · Todos los derechos reservados.</p>
+      <p>Factura electrónica · Entrega en Lima · Envíos a nivel nacional · Fotografías referenciales: Unsplash</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ QUOTE MODAL ============ -->
+<div class="overlay" id="modalOverlay" hidden></div>
+<div class="modal" id="quoteModal" role="dialog" aria-modal="true" aria-labelledby="quoteFormTitle" data-dialog hidden>
+  <div class="modal-panel" id="modalPanel"></div>
+</div>
+
+<script src="assets/js/comun.js"></script>
+<script src="assets/js/catalogo.js"></script>
+</body>
+</html>

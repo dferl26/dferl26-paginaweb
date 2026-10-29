@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ficha técnica | Dayvilab E.I.R.L.</title>
+<meta name="description" content="Ficha técnica, especificaciones y presentaciones. Cotización formal con factura electrónica y envíos a Lima y provincias.">
+<meta name="robots" content="index, follow">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500&display=swap">
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<script src="assets/js/arranque.js"></script>
+<script src="https://unpkg.com/lucide@0.344.0/dist/umd/lucide.min.js"></script>
+<link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+<!-- ============ TOP BAR ============ -->
+<div class="bg-ink text-slate-200 text-[13px]">
+  <div class="wrap flex items-center justify-between gap-4 py-2">
+    <p class="flex items-center gap-2 min-w-0"><i data-lucide="badge-check" class="w-4 h-4 text-[#5ED6DA] flex-none"></i><span class="truncate">Factura electrónica · Envíos a Lima y todo el Perú</span></p>
+    <div class="hidden md:flex items-center gap-5">
+      <a href="tel:+51993007474" class="flex items-center gap-1.5 hover:text-white"><i data-lucide="phone" class="w-3.5 h-3.5"></i>+51 993 007 474</a>
+      <a href="mailto:dayvilab2@gmail.com" class="flex items-center gap-1.5 hover:text-white"><i data-lucide="mail" class="w-3.5 h-3.5"></i>dayvilab2@gmail.com</a>
+      <span class="mono text-slate-400">RUC 20565350987</span>
+    </div>
+  </div>
+</div>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="header">
+  <div class="wrap flex items-center justify-between gap-4 h-[72px]">
+    <a href="index.html#inicio" class="flex-none" aria-label="Dayvilab E.I.R.L. — Ir al inicio">
+      <img src="assets/img/logo-dayvilab.png" alt="Dayvilab E.I.R.L." class="h-10 md:h-11 w-auto">
+    </a>
+    <nav aria-label="Navegación principal" class="hidden lg:flex items-center gap-6">
+      <a class="nav-link is-active" href="index.html#catalogo">Catálogo</a>
+      <a class="nav-link" href="index.html#marcas">Marcas</a>
+      <a class="nav-link" href="index.html#sectores">Sectores</a>
+      <a class="nav-link" href="index.html#proceso">Proceso</a>
+      <a class="nav-link" href="index.html#nosotros">Nosotros</a>
+      <a class="nav-link" href="index.html#cotizar">Contacto</a>
+    </nav>
+    <div class="flex items-center gap-2 md:gap-3">
+      <button type="button" class="relative w-11 h-11 grid place-items-center rounded-[10px] border border-line text-ink2 hover:border-brand hover:text-brand transition" data-open-drawer aria-label="Abrir mi lista de cotización">
+        <i data-lucide="clipboard-list" class="w-5 h-5"></i>
+        <span class="cart-count" data-cart-count hidden>0</span>
+      </button>
+      <a href="index.html#solicitar" class="btn btn-primary btn-sm hidden sm:inline-flex">Solicitar cotización</a>
+      <button type="button" class="lg:hidden w-11 h-11 grid place-items-center rounded-[10px] text-ink" id="menuBtn" aria-expanded="false" aria-controls="mobileMenu" aria-label="Abrir menú">
+        <i data-lucide="menu" class="w-6 h-6"></i>
+      </button>
+    </div>
+  </div>
+  <div id="mobileMenu" class="lg:hidden border-t border-line bg-white" hidden>
+    <nav class="wrap py-4 flex flex-col" aria-label="Navegación móvil">
+      <a class="py-3 font-semibold text-ink border-b border-line" href="index.html#catalogo">Catálogo</a>
+      <a class="py-3 font-semibold text-ink border-b border-line" href="index.html#marcas">Marcas</a>
+      <a class="py-3 font-semibold text-ink border-b border-line" href="index.html#sectores">Sectores</a>
+      <a class="py-3 font-semibold text-ink border-b border-line" href="index.html#proceso">Proceso</a>
+      <a class="py-3 font-semibold text-ink border-b border-line" href="index.html#nosotros">Nosotros</a>
+      <a class="py-3 font-semibold text-ink" href="index.html#cotizar">Contacto</a>
+      <a href="index.html#solicitar" class="btn btn-primary mt-4 w-full">Solicitar cotización formal</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="pt-8 pb-16 lg:pt-10 lg:pb-24">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Ruta de navegación" id="crumbs">
+        <a href="index.html">Inicio</a><i data-lucide="chevron-right"></i>
+        <a href="index.html#catalogo">Catálogo</a><i data-lucide="chevron-right"></i>
+        <span aria-current="page">Ficha técnica</span>
+      </nav>
+      <div id="ficha" class="mt-6" aria-busy="true">
+        <div class="grid lg:grid-cols-2 gap-10 lg:gap-14" aria-hidden="true">
+          <div class="skeleton" style="aspect-ratio:1/1;border-radius:20px"></div>
+          <div class="space-y-4">
+            <div class="skeleton" style="height:22px;width:30%"></div>
+            <div class="skeleton" style="height:40px;width:90%"></div>
+            <div class="skeleton" style="height:40px;width:70%"></div>
+            <div class="skeleton" style="height:120px"></div>
+            <div class="skeleton" style="height:48px"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band band-alt" id="relacionadosWrap" hidden>
+    <div class="wrap">
+      <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-3">
+        <div>
+          <span class="eyebrow">También le puede interesar</span>
+          <h2 class="h2 mt-3">Productos relacionados</h2>
+        </div>
+        <a class="ficha-link" id="verCategoria" href="index.html#catalogo">Ver toda la categoría<i data-lucide="arrow-right"></i></a>
+      </div>
+      <div class="product-grid mt-8" id="relacionados"></div>
+    </div>
+  </section>
+</main>
+
+<!-- Visor de imagen en alta resolución -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Imagen ampliada" data-dialog hidden>
+  <button type="button" class="lightbox-close" id="lightboxClose" aria-label="Cerrar imagen"><i data-lucide="x" class="w-6 h-6"></i></button>
+  <img id="lightboxImg" src="data:," alt="">
+</div>
+
+<!-- ============ FOOTER ============ -->
+<footer class="bg-ink text-slate-300">
+  <div class="wrap pt-16 pb-8">
+    <div class="grid sm:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1.3fr] gap-10">
+      <div>
+        <span class="inline-block bg-white rounded-xl px-4 py-3"><img src="assets/img/logo-dayvilab.png" alt="Dayvilab E.I.R.L." class="h-10 w-auto"></span>
+        <p class="mt-5 text-sm leading-relaxed max-w-[36ch]">Importación y distribución de equipos, reactivos y materiales para laboratorios clínicos, educativos, químicos e industriales.</p>
+      </div>
+      <nav aria-label="Categorías">
+        <h3 class="text-white text-sm font-bold uppercase tracking-wider">Categorías</h3>
+        <ul class="mt-4 space-y-2.5 text-sm" id="footerCats"></ul>
+      </nav>
+      <nav aria-label="Empresa">
+        <h3 class="text-white text-sm font-bold uppercase tracking-wider">Empresa</h3>
+        <ul class="mt-4 space-y-2.5 text-sm">
+          <li><a class="hover:text-white" href="index.html#nosotros">Nosotros</a></li>
+          <li><a class="hover:text-white" href="index.html#marcas">Marcas</a></li>
+          <li><a class="hover:text-white" href="index.html#proceso">Proceso de cotización</a></li>
+          <li><a class="hover:text-white" href="index.html#faq">Preguntas frecuentes</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h3 class="text-white text-sm font-bold uppercase tracking-wider">Contacto</h3>
+        <ul class="mt-4 space-y-3 text-sm">
+          <li class="flex gap-2.5"><i data-lucide="map-pin" class="w-4 h-4 mt-0.5 text-[#5ED6DA] flex-none"></i><span>Av. Emancipación 569, Int. 1012<br>Av. Emancipación 845, Int. 125<br>Lima – Perú</span></li>
+          <li class="flex gap-2.5"><i data-lucide="phone" class="w-4 h-4 mt-0.5 text-[#5ED6DA] flex-none"></i><a class="hover:text-white mono" href="tel:+51993007474">+51 993 007 474</a></li>
+          <li class="flex gap-2.5"><i data-lucide="mail" class="w-4 h-4 mt-0.5 text-[#5ED6DA] flex-none"></i><a class="hover:text-white break-all" href="mailto:dayvilab2@gmail.com">dayvilab2@gmail.com</a></li>
+          <li class="flex gap-2.5"><i data-lucide="clock" class="w-4 h-4 mt-0.5 text-[#5ED6DA] flex-none"></i><span>Lun. a sáb., 9:00 a.m. – 7:00 p.m.</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="mt-12 pt-6 border-t border-slate-700 flex flex-col md:flex-row gap-3 justify-between text-xs text-slate-400">
+      <p>© <span id="year">2026</span> Dayvilab E.I.R.L. · <span class="mono">RUC 20565350987</span> · Todos los derechos reservados.</p>
+      <p>Factura electrónica · Entrega en Lima · Envíos a nivel nacional · Fotografías referenciales: Unsplash</p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/comun.js"></script>
+<script src="assets/js/producto.js"></script>
+</body>
+</html>
